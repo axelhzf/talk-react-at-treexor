@@ -17,7 +17,7 @@ theme: ./theme
 
 ## Warning #1
 
-This is a talk about React. But it's also a talk about why is better than Angular.js. During the talks it will look like I hate Angular.js, but it's not so bad.
+This is a talk about React. But it's also a talk about why is better than Angular.js. During this talks it will look like I hate Angular.js, but it's not so bad.
 
 --
 
@@ -73,7 +73,7 @@ Components are the equivalent to angular's directives
 
 ## This is a Component
 
-```javascript
+```js
 import React from react;
 
 class HelloWorld extends React.Component {
@@ -89,7 +89,7 @@ class HelloWorld extends React.Component {
 
 ## This is how to use a Component
 
-```javascript
+```js
 import ReactDom from "react-dom";
 ReactDOM.render(<HelloWorld />, document.getElementById('container'));
 ```
@@ -139,19 +139,7 @@ class Hello extends React.Component {
 
 ## Components lifecycle
 
-* `componentWillMount()`
-* `componentDidMount()`
-* `componentWillReceiveProps(nextProps)`
-* `shouldComponentUpdate(nextProps, nextState)`
-* `componentWillUpdate()`
-* `componentDidUpdate()`
-* `componentDidUnmount()`
-
----
-
-## Lifecycle example
-
-```
+```js
 class LifeCycleComponent extends Component {
     state = {
        counter = 0
@@ -184,7 +172,7 @@ class LifeCycleComponent extends Component {
 
 ### ES6 modules > Angular's Dependency Injection
 
-```
+```js
 // service.js
 class Service {
    myMethod() {}
@@ -207,7 +195,7 @@ class MyComponent {
 
 You can use a Promise polyfill or the high performant [Bluebird](https://github.com/petkaantonov/bluebird).
 
-```
+```js
 import Promise from "bluebird";
 const waitTime = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms))
@@ -221,7 +209,7 @@ const waitTime = (ms) => {
 * Browser are implementing [fetch](https://developer.mozilla.org/en/docs/Web/API/Fetch_API). You can use a [polyfill](https://github.com/github/fetch).
 * For Universal applications you can use [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
 
-```
+```js
 fetch('/users.json')
   .then(response => response.json())
   .then(json => console.log('parsed json', json)})
@@ -309,7 +297,7 @@ Learn once, write everywhere
 
 # DOM UPDATE CYCLE
 
-* Every time state change setState(), React calls render method
+* Every time state change `setState()`, React calls render method
 * `render` create a virtual dom representation
 * Compare the new and the old tree using reconciliation
 * Creates a batch of DOM updates
@@ -337,7 +325,8 @@ Learn once, write everywhere
 --
 
 ![](images/native-view.jpg)
-```
+
+```js
 <View>
   <Text style={styles.text} >
     Accesibility Inspector
@@ -403,7 +392,7 @@ var styles = StyleSheet.create({
 
 --
 
-## DEMO
+## React Native Demo
 
 
 <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
