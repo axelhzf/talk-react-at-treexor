@@ -1,6 +1,5 @@
 title: React at Treexor
 author:
-  name: Axel Hernández Ferrera
   twitter: axelhzf
   url: http://axelhzf.com
 output: index.html
@@ -166,7 +165,7 @@ class LifeCycleComponent extends Component {
 * Dependency injection
 * HTTP calls
 * Promises
-* ...
+* Models
 
 --
 
@@ -224,13 +223,20 @@ You don't really what to use that
 
 --
 
+### Predictable state container for JavaScript apps
+
+### Flux, Redux or Relay
+
+[http://axelhzf.com/talk-new-ideas-web-app/#/25](http://axelhzf.com/talk-new-ideas-web-app/#/25)
+
+--
+
 ## Why so much hype about React?
 
 * Real projects (Facebook, Instagram, Netflix, Paypal)
-* Performance out of the box
-* Smart community
-* Innovation: One way data binding, Immutability, Universal Applications
-* React Native
+* Good performance
+* Really smart people in the community
+* Innovation: One way data binding, Immutability, Universal Applications, React Native
 
 -- cover
 
