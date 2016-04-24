@@ -125,7 +125,7 @@ class Hello extends React.Component {
       const {counter} = this.state;
       return (
         <div>
-          <h1>Counter {this.counter}</h1>
+          <h1>Counter {counter}</h1>
           <button onClick={this.increment}>Increment</button>
         </div>
       );
