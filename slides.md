@@ -16,7 +16,9 @@ theme: ./theme
 
 ## Warning #1
 
-This is a talk about React. But it's also a talk about why is better than Angular.js. But Angular.js it's not so bad.
+This is a talk about React and why is better than Angular.js. Despite all my comments, Angular.js is not so bad.
+
+(It could be worst, like Polymer)
 
 --
 
