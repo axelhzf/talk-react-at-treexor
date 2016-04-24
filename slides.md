@@ -400,7 +400,6 @@ var styles = StyleSheet.create({
 
 ## React Native Demo
 
-
 <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script type="text/javascript">
     var _gaq = _gaq || [];
