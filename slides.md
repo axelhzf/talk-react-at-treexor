@@ -16,7 +16,7 @@ theme: ./theme
 
 ## Warning #1
 
-This is a talk about React. But it's also a talk about why is better than Angular.js. During this talks it will look like I hate Angular.js, but it's not so bad.
+This is a talk about React. But it's also a talk about why is better than Angular.js. But Angular.js it's not so bad.
 
 --
 
