@@ -192,7 +192,7 @@ class MyComponent {
 
 ### Promise > $q
 
-You can use a Promise polyfill or the high performant [Bluebird](https://github.com/petkaantonov/bluebird).
+You can use a native Promises or a polyfill [Bluebird](https://github.com/petkaantonov/bluebird).
 
 ```js
 import Promise from "bluebird";
