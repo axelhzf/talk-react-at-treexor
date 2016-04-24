@@ -217,12 +217,6 @@ fetch('/users.json')
 
 --
 
-### ??? > $resource
-
-You don't really what to use that
-
---
-
 ### Predictable state container for JavaScript apps
 
 ### Flux, Redux or Relay
